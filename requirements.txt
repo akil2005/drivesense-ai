@@ -1,0 +1,17 @@
+# Core Agentic Framework
+langgraph>=0.0.10
+langchain>=0.1.0
+langchain-core>=0.1.0
+
+# LLM & Embedding Providers (Groq Integration)
+langchain-groq>=0.1.0
+sentence-transformers>=2.5.0    # For local, free text embeddings (RAG)
+
+# Vector Database & RAG Support
+chromadb>=0.4.24
+pypdf>=4.0.0
+tiktoken>=0.6.0
+
+# Data Validation & Utilities
+pydantic>=2.6.0
+python-dotenv>=1.0.1

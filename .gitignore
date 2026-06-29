@@ -1,0 +1,25 @@
+# Virtual Environment
+venv/
+.venv/
+ENV/
+
+# Security and API Keys
+.env
+.env.local
+*.env
+
+# Python Cache Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Editor Settings
+.vscode/
+.idea/
+
+# Local Data and Scraping Caches
+data/
+*.csv
+*.json
+*.sqlite
