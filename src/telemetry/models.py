@@ -36,3 +36,5 @@ class VehicleTelemetryPayload(BaseModel):
     performance: EnginePerformanceMetrics
     electrical_emissions: ElectricalEmissionsMetrics
     dtc_codes: List[str] = Field(default_factory=list, description="Active Diagnostic Trouble Codes (e.g., ['P0171', 'P0300'])")
+    # Edge layer's local mathematical predictions
+    edge_computed_alerts: dict = Field(default_factory=dict, description="Predictive flags like {'cooling_degradation': True}")
